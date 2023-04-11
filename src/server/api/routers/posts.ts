@@ -44,7 +44,5 @@ export const postsRouter = createTRPCRouter({
         },
       };
     });
-
-    return posts;
   }),
 });
