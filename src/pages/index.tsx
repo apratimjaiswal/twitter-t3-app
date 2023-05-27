@@ -65,7 +65,7 @@ const Feed = () => {
 
   if (postsLoading) return <LoadingPage />;
 
-  if (!data) return <div>Somethign went wrong</div>;
+  if (!data) return <div>Something went wrong</div>;
 
   return (
     <div className="flex flex-col">
